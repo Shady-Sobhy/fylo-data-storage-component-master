@@ -1,0 +1,172 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap'); 
+ body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+   
+ }
+.container{
+   margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.fylo-card{
+    width: 340px;
+    height: 200px;
+    margin-right: -110px;
+    background-color:hsl(228, 56%, 26%) ;
+    border-radius: 10px 90px 10px 10px ;
+    
+    
+}
+.main-logo{
+    padding: 30px 25px;
+}
+.logos{
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+    padding: 0px 25px;
+}
+
+.box{
+    
+    
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:hsl(229, 57%, 11%) ;
+}
+.logo{
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    
+}
+.logo.document{
+    top: 11px;
+    left: 17px;
+}
+
+.storage-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 555px;
+    height: 110px;
+    background-color: #1E2C69;
+    border-radius: 12px;
+    padding: 25px;
+
+}
+.gb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:hsl(243, 100%, 93%) ;
+    margin-top: 13px;
+    font-weight: 700;
+}
+.gb-left-card{
+    top: -35px;
+    right: 30px;
+    position: absolute;
+    width: 145px;
+    height: 55px;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px  13px 0px 13px;
+}
+.gb-left-card-relative{
+    position: relative;
+}
+.numbers{
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    
+    
+}
+.numbers span{
+    margin-left: 10px;
+    font-size: 13px;
+    color: hsl(229, 7%, 55%);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 790px;
+    background: url(/fylo-data-storage-component-master/images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 0% 100%;
+}
+
+.strok{
+    position: relative;
+    width: 500px;
+    height: 12px;
+    border-radius: 25px;
+    border: 2px solid hsl(228, 71%, 26%);
+    background-color: hsl(229, 57%, 11%);
+    overflow: hidden;
+}
+.fill{
+    right :100px;
+    position: absolute;
+    width: 400px;
+    height: 12px;
+    border-radius: 25px;
+    background-image: linear-gradient(to left,  hsl(335, 100%, 65%) , hsl(6, 100%, 80%));
+}
+.fill-relative{
+    position: relative;
+}
+.circle{
+    left: 389px;
+    top: 1px;
+    border-radius: 25px;
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}
+.usage{
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: hsl(229, 7%, 55%);
+    font-weight: 700;
+
+}
+
+.usage span{
+    color: white;
+}
+.end{
+    margin-right: 15px;
+}
+
+.triangle-up {
+    position: absolute;
+    right: -28px;
+    top: 67px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgba(255, 255, 255, 0.89);
+    rotate: 45deg;
+  }
